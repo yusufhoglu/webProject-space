@@ -1,0 +1,193 @@
+body{
+    background-image:url("background-home-desktop.jpg");
+    
+   
+    object-fit: cover; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.animation {
+    animation: opc 3s;
+}
+
+@keyframes opc {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+
+.text {
+    position: absolute;
+    width: 40%;
+    color: rgba(234, 234, 234, 0.897);
+    top: 30%;
+    left: 10%;
+}
+
+
+
+.first-head {
+    font-size: 150%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10%;
+    margin-bottom: 0px;
+}
+
+.first-paragraph {
+    font-family: 'Rubik', sans-serif;
+}
+.big-head{
+    color: rgba(255, 255, 211, 0.784);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 830%;
+    font-family: 'Playfair Display', serif;
+    margin-left: 15%;
+
+}
+
+.circle-link {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    right: 16%;
+   
+  }
+  
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 0;
+  }
+  
+  .circle-link a {
+    font-family: 'Gloock', serif;
+    font-size: 200%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 250px;
+    color: rgb(12, 12, 12);
+    z-index: 1;
+  }
+
+@keyframes logo {
+    to{
+        top: 5%;
+    } 
+}
+
+.logo0 {
+    position: absolute;
+    top: -30px;
+    left: 2%;
+    animation: logo 1.5s ease-in forwards;
+}
+
+
+
+.hr1 {
+    border-color: rgb(111, 121, 129);
+    width: 35%;
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    z-index: 2;
+}
+
+.transparentlayer {
+    position: absolute;
+    left: 40%;
+    top:3%;
+    background-color: rgba(0, 0, 0, 0.102);
+    backdrop-filter: blur(10px);
+    width: 60%;
+    height: 110px;
+    filter: brightness(120%);
+    z-index: 1; 
+}
+
+
+.panel-link{
+    position: relative;
+    color: azure;
+    
+}
+
+.panel-link:hover {
+    color: azure;
+}
+
+.panel-link:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -45px; /* Çizginin metne göre yüksekliğini ayarlayın */
+    width: 100%;
+    border-bottom: 5px solid azure;
+  }
+
+
+
+.panel{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.home {
+    font-size: larger;
+    position: absolute;
+    left: 55%;
+    top:9%;
+    z-index: 2;
+    
+}
+
+.destination {
+    font-size: larger;
+    position: absolute;
+    left: 65%;
+    top:9%;
+    z-index: 2;
+    
+}
+
+
+.crew {
+    font-size: larger;
+    position: absolute;
+    left: 77%;
+    top:9%;
+    z-index: 2;
+    
+}
+
+.technology {
+    font-size: larger;
+    position: absolute;
+    left: 85%;
+    top:9%;
+    z-index: 2;
+}
+
+
